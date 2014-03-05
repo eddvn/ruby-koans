@@ -9,8 +9,9 @@ class AboutTrueAndFalse < Neo::Koan
     end
   end
 
-  def test_true_is_treated_as_true
-    assert_equal __, truth_value(true)
+  def test_true_is_tr
+eated_as_true
+    assert_equal true, truth_value(true)
   end
 
   def test_false_is_treated_as_false
